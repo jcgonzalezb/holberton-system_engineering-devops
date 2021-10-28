@@ -12,13 +12,13 @@ FILE=school
 if test -e "$FILE"; then
 	echo "$FILE file exists"
 	if test -s "$FILE"; then
-		echo "$FILE is not empty"
+		echo "$FILE file is not empty"
 	else
-		echo "$FILE is empty"
+		echo "$FILE file is empty"
 	fi
 
 	if test -f "$FILE"; then
-		echo "$FILE is a regular file"
+		echo "$FILE file is a regular file"
 	fi
 else
 	echo "$FILE file does not exist"
