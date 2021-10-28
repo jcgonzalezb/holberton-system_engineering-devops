@@ -9,7 +9,7 @@
 #if the file is a regular file: school is a regular file
 #if the file is not a regular file: (nothing)
 FILE=school
-if test -f "$FILE"; then
+if test -e "$FILE"; then
 	echo "$FILE exists"
 	if test -s "$FILE"; then
 		echo "$FILE is not empty"
