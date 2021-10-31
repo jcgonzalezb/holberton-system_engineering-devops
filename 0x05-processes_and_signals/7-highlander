@@ -5,10 +5,8 @@
 at_term()
 {
 	echo 'I am invincible!!!'
-	exit 0
 }
 trap at_term TERM
-echo $$
 
 while :
 do
