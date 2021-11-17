@@ -1,4 +1,4 @@
-Readme file
+Readme file parts:
 
 0. Simple web stack
 1. Distributed web infrastructure
