@@ -1,4 +1,4 @@
-Readme file diagrams:
+Readme file diagrams test:
 
 0. Simple web stack
 1. Distributed web infrastructure
