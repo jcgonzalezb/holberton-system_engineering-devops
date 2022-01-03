@@ -1,7 +1,6 @@
 # Install puppet-lint version 2.5.0 using Puppet.
 
-package { 'screen':
-    ensure => 'installed',
+package { 'puppet-lint':
+    ensure => '2.5.0',
   }
-
 }
