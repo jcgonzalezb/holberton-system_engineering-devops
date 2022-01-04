@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
 # SSH configuration file for local SSH client. Connect to a server without using a password.
 
-
+Host 3388-web-01
+	HostName 34.139.188.96
+	User ubuntu
+	Port 22
+	IdentityFile ~/.ssh/school
+	BatchMode yes
