@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# SSH configuration file for local SSH client. Connect to a server without using a password.
+
+
