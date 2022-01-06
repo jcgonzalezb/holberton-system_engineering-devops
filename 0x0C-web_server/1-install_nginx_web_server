@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 # Bash script that installs nginx, set to listening on port 80 and return a page while using curl.
 
-sudo apt update
-sudo apt-get -y install nginx
-sudo ufw allow 'nginx full'
-
+apt-get update -y
+apt-get install nginx -y
 echo "Hello World!" > /var/www/html/index.nginx-debian.html
-sudo service nginx reload
+service nginx reload
