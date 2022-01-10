@@ -17,5 +17,7 @@ apt-get -y install software-properties-common
 add-apt-repository -y ppa:vbernat/haproxy-2.5
 apt-get update -y
 apt-get install haproxy=2.5.\* -y
+cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.backup
+echo "ENABLED=1" >> /etc/default/haproxy
 echo "$CONFIGURATION" >> /etc/haproxy/haproxy.cfg
-systemctl restart haproxy
+service haproxy start
