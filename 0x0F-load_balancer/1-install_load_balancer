@@ -21,4 +21,4 @@ apt-get update -y
 apt install -y haproxy
 cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.backup
 echo "$CONFIGURATION" >> /etc/haproxy/haproxy.cfg
-service haproxy start
+service haproxy restart
