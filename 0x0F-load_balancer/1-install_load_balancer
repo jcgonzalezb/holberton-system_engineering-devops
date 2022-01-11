@@ -4,6 +4,8 @@
 CONFIGURATION="
 frontend http_front
 	bind *:80
+	mode http
+	option forwardfor
 	stats uri /haproxy?stats
 	default_backend http_back
 
@@ -14,11 +16,9 @@ backend http_back
 	server 3388-web-02 54.209.148.200:80 check
 "
 
-apt-get -y install software-properties-common
 add-apt-repository -y ppa:vbernat/haproxy-2.5
 apt-get update -y
-apt-get install haproxy=2.5.\* -y
+apt install -y haproxy
 cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.backup
-echo "ENABLED=1" >> /etc/default/haproxy
 echo "$CONFIGURATION" >> /etc/haproxy/haproxy.cfg
 service haproxy start
