@@ -1,24 +1,4 @@
 #!/usr/bin/env bash
-# Install and configure HAproxy on your lb-01 server.
+# Fix server to listening on port 80 of all the server’s active IPv4 IPs.
 
-CONFIGURATION="
-frontend http_front
-	bind *:80
-	mode http
-	option forwardfor
-	stats uri /haproxy?stats
-	default_backend http_back
-
-backend http_back
-	balance roundrobin
-	mode http
-	server 3388-web-01 34.139.188.96:80 check
-	server 3388-web-02 54.209.148.200:80 check
-"
-
-add-apt-repository -y ppa:vbernat/haproxy-2.5
-apt-get update -y
-apt install -y haproxy
-cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.backup
-echo "$CONFIGURATION" >> /etc/haproxy/haproxy.cfg
-service haproxy start
+sudo service nginx start
