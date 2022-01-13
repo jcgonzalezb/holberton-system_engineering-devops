@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Fix server to listening on port 80 of all the server’s active IPv4 IPs.
 
+service nginx start
 sed -i "17 s/listen .*/listen 80 default_server;/" default
-sudo nginx -s reload
-sudo service nginx restart
+nginx -s reload
+service nginx restart
