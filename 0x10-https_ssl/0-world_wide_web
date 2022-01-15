@@ -5,34 +5,34 @@ SUB_DOMAIN="$2"
 DOMAIN="$1"
 
 if [ $# -lt 2 ]; then
-	touch test
+	touch temp
 	SUB_DOMAIN="www"
-	dig "$SUB_DOMAIN"."$DOMAIN" | grep -A1 'ANSWER SECTION:' > "test"
-	RECORD=$(awk 'NR==2 { print $4 }' test)
-	IP=$(awk 'NR==2 { print $5 }' test)
+	dig "$SUB_DOMAIN"."$DOMAIN" | grep -A1 'ANSWER SECTION:' > "temp"
+	RECORD=$(awk 'NR==2 { print $4 }' temp)
+	IP=$(awk 'NR==2 { print $5 }' temp)
 	echo "The subdomain" "$SUB_DOMAIN" "is a" "$RECORD" "record and points to" "$IP"
 	
 	SUB_DOMAIN="lb-01"
-	dig "$SUB_DOMAIN"."$DOMAIN" | grep -A1 'ANSWER SECTION:' > "test"
-	RECORD=$(awk 'NR==2 { print $4 }' test)
-	IP=$(awk 'NR==2 { print $5 }' test)
+	dig "$SUB_DOMAIN"."$DOMAIN" | grep -A1 'ANSWER SECTION:' > "temp"
+	RECORD=$(awk 'NR==2 { print $4 }' temp)
+	IP=$(awk 'NR==2 { print $5 }' temp)
 	echo "The subdomain" "$SUB_DOMAIN" "is a" "$RECORD" "record and points to" "$IP"
 
 	SUB_DOMAIN="web-01"
-	dig "$SUB_DOMAIN"."$DOMAIN" | grep -A1 'ANSWER SECTION:' > "test"
-	RECORD=$(awk 'NR==2 { print $4 }' test)
-	IP=$(awk 'NR==2 { print $5 }' test)
+	dig "$SUB_DOMAIN"."$DOMAIN" | grep -A1 'ANSWER SECTION:' > "temp"
+	RECORD=$(awk 'NR==2 { print $4 }' temp)
+	IP=$(awk 'NR==2 { print $5 }' temp)
 	echo "The subdomain" "$SUB_DOMAIN" "is a" "$RECORD" "record and points to" "$IP"
 
 	SUB_DOMAIN="web-02"
-	dig "$SUB_DOMAIN"."$DOMAIN" | grep -A1 'ANSWER SECTION:' > "test"
-	RECORD=$(awk 'NR==2 { print $4 }' test)
-	IP=$(awk 'NR==2 { print $5 }' test)
+	dig "$SUB_DOMAIN"."$DOMAIN" | grep -A1 'ANSWER SECTION:' > "temp"
+	RECORD=$(awk 'NR==2 { print $4 }' temp)
+	IP=$(awk 'NR==2 { print $5 }' temp)
 	echo "The subdomain" "$SUB_DOMAIN" "is a" "$RECORD" "record and points to" "$IP"
 	exit 1
 else
-	dig "$2"."$1" | grep -A1 'ANSWER SECTION:' > "test2"
-	RECORD=$(awk 'NR==2 { print $4 }' test2)
-	IP=$(awk 'NR==2 { print $5 }' test2)
+	dig "$2"."$1" | grep -A1 'ANSWER SECTION:' > "temp"
+	RECORD=$(awk 'NR==2 { print $4 }' temp)
+	IP=$(awk 'NR==2 { print $5 }' temp)
 	echo "The subdomain" "$SUB_DOMAIN" "is a" "$RECORD" "record and points to" "$IP"
 fi
