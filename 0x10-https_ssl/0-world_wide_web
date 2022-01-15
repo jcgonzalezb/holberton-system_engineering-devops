@@ -1,2 +1,12 @@
 #!/usr/bin/env bash
 # Bash script that will display information about subdomains.
+
+
+SUB_DOMAIN="$2"
+
+
+dig "$2"."$1" | grep -A1 'ANSWER SECTION:' > "test"
+RECORD=$(awk 'NR==2 { print $4 }' test)
+IP=$(awk 'NR==2 { print $5 }' test)
+
+echo "The subdomain" "$SUB_DOMAIN" "is a" "$RECORD" "record and points to" "$IP"
