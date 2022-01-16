@@ -12,7 +12,7 @@
 - Language: Puppet.
 - Style guidelines: [Puppet-Lint](http://puppet-lint.com/)
 
-<p align="left"> <a href="https://puppet.com/" target="_blank" rel="noreferrer"> <img src="https://puppet.com/images/logos/puppet-logo-white.svg" alt="puppet" width="40" height="40"/> </a> </p>
+<p align="left"> <a href="https://puppet.com/" target="_blank" rel="noreferrer"> <img src="https://puppet.com/images/logos/puppet-logo-white.svg" alt="puppet" width="70" height="70"/> </a> </p>
 
 
 ## Author
