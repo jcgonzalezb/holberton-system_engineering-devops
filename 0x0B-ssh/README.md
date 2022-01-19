@@ -1,4 +1,4 @@
-# Configuration Management
+# SSH
 
 ## Description of the files inside this folder:
 
