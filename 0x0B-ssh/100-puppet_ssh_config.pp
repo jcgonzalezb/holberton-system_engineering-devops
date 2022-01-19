@@ -1,16 +1,14 @@
-# Configure SSH on a new Ubuntu 16.04 machine
+# Configure SSH on a new Ubuntu 20.04 machine
+# Turns off password authentication and uses holberton key
 
-file_line { 'PasswordAuthentication':
-  path => '/etc/ssh/ssh_config',
-  line => 'PasswordAuthentication no'
+file_line { 'Turn off passwd auth':
+  ensure => 'present',
+  path   => '/etc/ssh/ssh_config',
+  line   => '    PasswordAuthentication no',
 }
 
-file_line { 'IdentityFile':
-  path => '/etc/ssh/ssh_config',
-  line => 'IdentityFile ~/.ssh/holberton'
-}
-
-file_line { 'GSSAPIAuthentication':
-  path => '/etc/ssh/ssh_config',
-  line => 'GSSAPIAuthentication yes'
+file_line { 'Declare identity file':
+  ensure => 'present',
+  path   => '/etc/ssh/ssh_config',
+  line   => '    IdentityFile ~/.ssh/school',
 }
