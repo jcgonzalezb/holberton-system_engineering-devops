@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 # Bash script that configures the container to run nginx as nginx user and nginx must be listening on all active IPs on port 8080.
 
-sed -i '/#user www-data;/c\#user nginx;' /etc/nginx/nginx.conf
-sed -i '/listen 80 default_server/a \\tlisten 8080;' /etc/nginx/sites-available/default
-sudo service nginx restart
+sed -i '/#user www-data;/c\user nginx;' /etc/nginx/nginx.conf
+chmod 700 /etc/nginx/nginx.conf
+chown nginx:nginx /etc/nginx/nginx.conf
+sed -i '/listen 80 default_server;/c\\tlisten 8080 default_server;' /etc/nginx/sites-available/default
+
+# netstat -tulpn shows apache2 is using 8080
+pkill apache2
+sudo -u nginx service nginx restart
