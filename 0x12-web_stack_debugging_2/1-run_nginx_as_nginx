@@ -8,4 +8,4 @@ sed -i '/listen 80 default_server;/c\\tlisten 8080 default_server;' /etc/nginx/s
 
 # netstat -tulpn shows apache2 is using 8080
 pkill apache2
-sudo -u nginx service nginx restart
+sudo service nginx restart
