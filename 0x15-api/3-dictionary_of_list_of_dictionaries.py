@@ -18,6 +18,19 @@ def all_to_json():
                                   t.get('completed'),
                                   t.get('title')))
 
+    """export to json"""
+    data = dict()
+    for u in USERS:
+        t = []
+        for task in TASK_STATUS_TITLE:
+            if task[0] == u[0]:
+                t.append({"task": task[2], "completed": task[1],
+                          "username": u[1]})
+        data[str(u[0])] = t
+    filename = "todo_all_employees.json"
+    with open(filename, "w") as f:
+        json.dump(data, f, sort_keys=True)
+
 
 if __name__ == "__main__":
     all_to_json()
