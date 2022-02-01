@@ -22,7 +22,7 @@ def export_to_csv():
     todos = requests.get("http://jsonplaceholder.typicode.com/todos")
     for t in todos.json():
         if t.get('userId') == int(argv[1]):
-            TASK_STATUS_TITLE.append(t.get('completed'), t.get('title'))
+            TASK_STATUS_TITLE.append((t.get('completed'), t.get('title')))
 
     filename = "{}.csv".format(argv[1])
     with open(filename, mode='w') as csv_file:
