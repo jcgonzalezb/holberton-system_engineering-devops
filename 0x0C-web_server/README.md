@@ -12,7 +12,7 @@
 ## Languages and Tools:
 
 - OS: Ubuntu 20.04 LTS
-- Language: Bash script, Puppet.
+- Languages: Bash script, Puppet.
 - Style guidelines: [Shellscript](https://github.com/koalaman/shellcheck)
 - Style guidelines: [Puppet-Lint](http://puppet-lint.com/)
 
