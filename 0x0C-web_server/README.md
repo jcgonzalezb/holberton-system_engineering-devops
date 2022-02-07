@@ -12,10 +12,12 @@
 ## Languages and Tools:
 
 - OS: Ubuntu 20.04 LTS
-- Language: Bash script.
+- Language: Bash script, Puppet.
 - Style guidelines: [Shellscript](https://github.com/koalaman/shellcheck)
+- Style guidelines: [Puppet-Lint](http://puppet-lint.com/)
 
 <p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> </p>
+<p align="left"> <a href="https://puppet.com/" target="_blank" rel="noreferrer"> <img src="https://puppet.com/images/logos/puppet-logo-white.svg" alt="puppet" width="70" height="70"/> </a> </p>
 
 
 ## Author
