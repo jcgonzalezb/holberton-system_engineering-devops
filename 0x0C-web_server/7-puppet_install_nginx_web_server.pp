@@ -1,4 +1,4 @@
-# Install & configure NGINX on a new Ubuntu 16.04 server
+# Install & configure NGINX on a new Ubuntu 20.04 server
 
 $default_conf_match = '^\s*root\s+/var/www/html;\s*$'
 $default_conf_line = "\
