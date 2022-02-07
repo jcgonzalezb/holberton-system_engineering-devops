@@ -1,6 +1,6 @@
 # Web stack debugging #0
 
-## Description of the files inside this folder:
+## Description of the file inside this folder:
 
 0. After installing Apache, we get an error message (curl: (56) Recv failure: Connection reset by peer OR curl: (52) Empty reply from server) when running curl 0:8080. We will need to get Apache to run on the container and to return a page containing Hello Holberton when querying the root of it.
 
