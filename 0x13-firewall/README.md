@@ -12,7 +12,7 @@
 - Web Servers: Installed ufw firewall on web-01, web-02 running Nginx
 - Load Balancer: Installed ufw firewall on lb-01 running HAProxy, SSL
 - Domain name from [.TECH Domains](https://get.tech/)
-- Style guidelines: [Shellscript](https://github.com/koalaman/shellcheck)
+- Style guidelines: [Shellcheck](https://github.com/koalaman/shellcheck)
 
 <p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> </p>
 
