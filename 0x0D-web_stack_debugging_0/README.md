@@ -7,7 +7,7 @@
 ## Languages and Tools:
 
 - OS: Ubuntu 20.04 LTS
-- Language: Bash script.
+- Language: Bash script
 - Container: Docker
 - Web Server: Apache
 - Style guidelines: [Shellcheck](https://github.com/koalaman/shellcheck)
