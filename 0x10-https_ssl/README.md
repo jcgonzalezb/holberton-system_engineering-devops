@@ -3,6 +3,7 @@
 ## Description of the files inside this folder:
 
 0. Bash script that will display information about subdomains.
+1. Create a certificate using certbot and configure HAproxy to accept encrypted traffic for your subdomain www. The file 1-haproxy_ssl_termination is the HAproxy configuration file. HAproxy is listening to port TCP 443 and accepts SSL traffic.
 
 
 ## Languages and Tools:
@@ -15,7 +16,6 @@
 - Style guidelines: [Shellscript](https://github.com/koalaman/shellcheck)
 
 <p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> </p>
-<p align="left"> <a href="https://puppet.com/" target="_blank" rel="noreferrer"> <img src="https://puppet.com/images/logos/puppet-logo-white.svg" alt="puppet" width="70" height="70"/> </a> </p>
 
 
 ## Author
