@@ -12,8 +12,8 @@
 ## Languages and Tools:
 
 - OS: Ubuntu 20.04 LTS
-- Languages: Bash script, Puppet.
-- Style guidelines: [Shellscript](https://github.com/koalaman/shellcheck)
+- Languages: Bash script, Puppet
+- Style guidelines: [Shellcheck](https://github.com/koalaman/shellcheck)
 - Style guidelines: [Puppet-Lint](http://puppet-lint.com/)
 
 <p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> </p>
