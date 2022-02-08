@@ -12,7 +12,7 @@
 
 - OS: Ubuntu 20.04 LTS
 - Language: Bash script
-- Web Servers: Installed ufw firewall on web-01, web-02 running Nginx. MySQL distribution 5.7.x installed on both servers.
+- Web Servers: Installed ufw firewall on web-01, web-02 running Nginx. MySQL distribution 5.7.x installed on both servers
 - Load Balancer: Installed ufw firewall on lb-01 running HAProxy, SSL
 - Style guidelines: [Shellcheck](https://github.com/koalaman/shellcheck)
 
