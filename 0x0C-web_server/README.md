@@ -4,7 +4,7 @@
 
 0. Bash script that transfers a file from our client to a server.
 1. Bash script that installs nginx, set to listening on port 80 and return a page while using curl. Also,  it must return a page that contains the string Hello World.
-2. Domain name from [.TECH Domains] (https://get.tech/).
+2. Domain name from [.TECH Domains](https://get.tech/).
 3. Build on #1. Bash script that configures your Nginx server so that /redirect_me is redirecting to another page.
 4. Build on #3. Bash script that configures your Nginx server to have a custom 404 page that contains the string "Ceci n'est pas une page".
 7. Commands to install & configure NGINX on a new Ubuntu 20.04 server using Puppet.
