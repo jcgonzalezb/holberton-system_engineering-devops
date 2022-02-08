@@ -9,7 +9,7 @@
 ## Languages and Tools:
 
 - OS: Ubuntu 20.04 LTS
-- Languages: Bash script, Puppet.
+- Language: Bash script
 - Style guidelines: [Shellscript](https://github.com/koalaman/shellcheck)
 
 
