@@ -13,7 +13,7 @@
 - Web Servers: web-01, web-02 Nginx
 - Load Balancer: lb-01, (www) HAproxy
 - Domain name from [.TECH Domains](https://get.tech/)
-- Style guidelines: [Shellscript](https://github.com/koalaman/shellcheck)
+- Style guidelines: [Shellcheck](https://github.com/koalaman/shellcheck)
 
 <p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> </p>
 
