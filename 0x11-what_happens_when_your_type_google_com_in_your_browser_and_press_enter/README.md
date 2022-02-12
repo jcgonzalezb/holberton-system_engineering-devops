@@ -10,9 +10,6 @@
 
 - Blog: [What happens when you type google.com in your browser and press Enter](https://3388.medium.com/what-happens-when-you-type-google-com-in-your-browser-and-press-enter-f21999b95c70)
 
-<p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> </p>
-
-
 ## Author
 
 - Juan Camilo González <a href="https://twitter.com/juankter" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="juankter" height="30" width="40" /></a>
