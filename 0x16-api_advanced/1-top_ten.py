@@ -20,9 +20,8 @@ def top_ten(subreddit):
         allow_redirects=False,
         timeout=10
     )
-
     if resp.status_code == 200:
         for post in resp.json()['data']['children']:
             print(post['data']['title'])
     else:
-        print(None)
+        print('None')
