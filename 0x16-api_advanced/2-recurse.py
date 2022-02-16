@@ -1,30 +1,39 @@
 #!/usr/bin/python3
 """
-Function that queries the Reddit API and prints the titles of the
-first 10 hot posts listed for a given subreddit.
+Recursive function that queries the Reddit API and returns a list containing
+the titles of all hot articles for a given subreddit.
 """
 import requests
 
-URL = 'https://www.reddit.com/r/{}/{}.json?limit={}'
+URL = 'https://www.reddit.com/r/{}/hot.json'
 USER_AGENT = 'Mozilla/5.0 (Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0'
-listing = 'hot'
-limit = 10
 
 
-def top_ten(subreddit):
+def recurse(subreddit, hot_list=[], **kwargs):
     """
-    Query reddit for the titles of the first 10 hot posts
-    listed for a given subreddit.
+    Query reddit for the the titles of all hot articles
+    for a given subreddit. If no results are found for
+    the given subreddit, the function should return None.
     """
+    params = {
+        'after': kwargs.setdefault('after'),
+        'count': kwargs.setdefault('count', 0),
+        'limit': kwargs.setdefault('limit', 100)
+    }
 
     resp = requests.get(
-        URL.format(subreddit, listing, limit),
+        URL.format(subreddit),
         headers={'User-Agent': USER_AGENT},
         allow_redirects=False,
-        timeout=10
+        timeout=10,
+        params=params
     )
     if resp.status_code == 200:
-        for post in resp.json()['data']['children']:
-            print(post['data']['title'])
-    else:
-        print(None)
+        results = resp.json()['data']
+        hot_list.extend(post['data']['title'] for post in results['children'])
+        if results['after'] is not None:
+            kwargs['after'] = results['after']
+            kwargs['count'] += kwargs['limit']
+            return recurse(subreddit, hot_list, **kwargs)
+        return hot_list
+    return None
