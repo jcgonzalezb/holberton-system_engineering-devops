@@ -8,7 +8,7 @@ import requests
 URL = 'https://www.reddit.com/r/{}/{}.json?limit={}&t={}'
 USER_AGENT = 'Mozilla/5.0 (Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0'
 limit = 10
-timeframe = 'all'
+timeframe = 'month'
 listing = 'top'
 
 
