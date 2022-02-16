@@ -7,9 +7,10 @@ import requests
 
 URL = 'https://www.reddit.com/r/{}/{}.json?limit={}&t={}'
 USER_AGENT = 'Mozilla/5.0 (Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0'
+subreddit = 'python'
+listing = 'hot'
 limit = 10
 timeframe = 'month'
-listing = 'top'
 
 
 def top_ten(subreddit):
