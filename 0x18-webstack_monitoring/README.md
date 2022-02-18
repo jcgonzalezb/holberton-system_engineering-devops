@@ -1,6 +1,6 @@
 # Webstack monitoring
 
-> To monitor our Nginx server (web-01 server), I signed up for a free Datadog account, followed the setup wizard and installed the Datadog agent on web-01 server. Then, I received a API key from Datadog and created a Data application key. After this, I set up two monitors. The first one checked the number of read requests issued to the device per second and the second one checked the number of write requests issued to the device per second.
+> To monitor our Nginx server (web-01 server), I signed up for a free Datadog account, followed the setup wizard and installed the Datadog agent on web-01 server. Then, I received an API key from Datadog and created a Data application key. After this, I set up two monitors. The first one checked the number of read requests issued to the device per second and the second one checked the number of write requests issued to the device per second.
 
 # Description of the file inside this folder:
 
