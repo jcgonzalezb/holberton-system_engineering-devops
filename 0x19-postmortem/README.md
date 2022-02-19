@@ -30,6 +30,14 @@ Every time that you are working with a web server (Apache2 in this case), the fi
 - If you are new working with web servers, it is recommended to first read the manual to make sure that you are familiar with the basic commands. This could be helpful in case you are facing a problem because you can make a basic troubleshooting to avoid dealing with complex procedures that probably are not necessary.
 
 
+## Links to the Postmortem
+
+
+- [Web stack incident — Example of a Postmortem](https://3388.medium.com/web-stack-incident-example-of-a-postmortem-68508b302eef)
+
+- [Web stack incident — Example of a Postmortem](https://www.linkedin.com/posts/juancgonzalezbautista_web-stack-incidentexample-of-a-postmortem-activity-6900863311219695618-a6cy)
+
+
 ## Author
 
 - Juan Camilo González <a href="https://twitter.com/juankter" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="juankter" height="30" width="40" /></a>
