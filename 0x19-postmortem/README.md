@@ -1,4 +1,9 @@
-# Postmortem
+# Test page outage incident report
+
+<p align="center">
+  <img src=https://miro.medium.com/max/1178/1*oVKGoD-vtTaKiEFSknK8bA.jpeg>
+</p>
+
 
 The following is the incident report for the demo page outrage that occurred on January 4, 2022.
 
@@ -6,7 +11,7 @@ The following is the incident report for the demo page outrage that occurred on 
 
 From 9:20 am to 9:40 am CT, after a student started a docker container, he tried to curl the port 80, but instead of getting a page that contained “Hello Holberton”, he got the following error message: curl: (7) Failed to connect to port 80: connection refused. This student was the only one affected by this incident. After an inspection, a command was inserted, and the problem was solved. The fact that the Apache program had not been initialized before the curl command was inserted caused the error mentioned.
 
-## Timeline
+## Timeline (all times Central Time)
 
 - 9:20 AM: Docker container initialized
 - 9:25 AM: Unsuccessful curl attempt done
