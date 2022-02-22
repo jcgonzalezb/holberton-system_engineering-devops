@@ -57,6 +57,12 @@ server {
 		proxy_pass http://0.0.0.0:5001/;
 	}
 
+	# WSGI server hosting HBnB API at port 5002
+	location /api/ {
+		include proxy_params;
+		proxy_pass http://0.0.0.0:5002;
+	}
+
         # SSL configuration
         #
         # listen 443 ssl default_server;
