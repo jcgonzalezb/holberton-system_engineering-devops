@@ -5,9 +5,9 @@
 2. Configure Nginx to serve page from the route '/airbnb-onepage/'. Nginx should proxy requests to the process listening on port 5000. Nginx config file updloaded.
 3. Configure Nginx to proxy HTTP requests to the route '/airbnb-dynamic/number_odd_or_even/(any integer)' to a Gunicorn instance listening on port 5001. Nginx config file updloaded.
 4. Configure Nginx so that the route '/api/' points to a Gunicorn instance listening on port 5002. Nginx config file updloaded.
-5. Configure Nginx so that the route '/' points to your Gunicorn instance. This instance should serve content from web_dynamic/2-hbnb.py on port 5003.
+5. Configure Nginx so that the route '/' points to your Gunicorn instance. This instance should serve content from web_dynamic/2-hbnb.py on port 5003. Nginx config file updloaded.
 
-## Languages and Tools:
+## Enviroment
 
 - OS: Ubuntu 20.04 LTS
 - Technologies: Gunicorn
