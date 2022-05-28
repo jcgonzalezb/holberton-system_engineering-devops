@@ -1,4 +1,4 @@
-# 0x04. Loops, conditions and parsing
+# Bash - Loops, conditions and parsing
 
 ## Description of the files inside this folder:
 
@@ -19,7 +19,7 @@
 - OS: Ubuntu 20.04 LTS
 - Style guidelines: [Shellcheck](https://github.com/koalaman/shellcheck)
 
-<p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> </p>
+<p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://github.com/odb/official-bash-logo/blob/master/assets/Logos/Icons/SVG/48x48_white.svg" alt="bash" width="40" height="40"/> </a> </p>
 
 
 ## Author
