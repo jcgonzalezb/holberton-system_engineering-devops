@@ -1,4 +1,4 @@
-# Web Server
+# Bash - Web Server
 
 ## Description of the files inside this folder:
 
