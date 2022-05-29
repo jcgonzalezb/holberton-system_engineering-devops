@@ -1,4 +1,4 @@
-# Web stack debugging #3
+# Puppet - Web stack debugging #3
 
 ## Description of the file inside this folder:
 
