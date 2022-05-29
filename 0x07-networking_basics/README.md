@@ -8,6 +8,9 @@
 > listening ports)
 
 ## Description of the files inside this folder:
+1. Number of the correct answer for multiple choice question type task.
+2. Number of the correct answer for multiple choice question type task.
+3. Number of the correct answer for multiple choice question type task.
 4. Bash script to display actively listening sockets and their PIDs
 5. Bash script to ping an IP address passed as argument 5 times
 
