@@ -14,8 +14,8 @@
 - Usage: Run each file with ./[filename] "pattern to test if match" | cat -e
 - Each file has the following format:
 
-''' #!/usr/bin/env ruby
-puts ARGV[0].scan(/ regex here /).join '''
+``` #!/usr/bin/env ruby
+puts ARGV[0].scan(/ regex here /).join ```
 
 
 ## Languages and Tools:
