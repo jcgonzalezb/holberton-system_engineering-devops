@@ -11,7 +11,10 @@
 6. Create a Ruby script that accepts one argument and pass it to a regular expression matching method. The regular expression must match a 10 digit phone number.
 7. Create a Ruby script that accepts one argument and pass it to a regular expression matching method. The regular expression must be only matching: capital letters.
 
-- Usage: Run each file with ./[filename] "pattern to test if match" | cat -e
+- Usage: Run each file with:
+```
+./[filename] "pattern to test if match" | cat -e
+```
 - Each file has the following format:
 
 ``` #!/usr/bin/env ruby
