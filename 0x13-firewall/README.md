@@ -1,4 +1,4 @@
-# Firewall
+# Bash - Firewall
 
 ## Description of the files inside this folder:
 
