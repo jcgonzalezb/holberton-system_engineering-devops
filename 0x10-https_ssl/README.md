@@ -1,4 +1,4 @@
-# HTTPS SSL
+# Bash - HTTPS SSL
 
 ## Description of the files inside this folder:
 
