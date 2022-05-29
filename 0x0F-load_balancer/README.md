@@ -1,4 +1,4 @@
-# Load balancer
+# Bash - Load balancer
 
 ## Description of the files inside this folder:
 
