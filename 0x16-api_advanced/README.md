@@ -1,6 +1,6 @@
 # Python - API advanced
 
-# Description of the files and folders inside this folder:
+## Description of the files and folders inside this folder:
 
 - main_files: Folder with main programs to showcase sample function usage.
 
@@ -9,7 +9,7 @@
 1. Function that queries the Reddit API and prints the titles of the first 10 hot posts listed.
 2. Recursive function that queries the Reddit API and returns a list containing the titles of all hot articles.
 
-# Languages and Tools:
+## Languages and Tools:
 
 - OS: Ubuntu 20.04 LTS
 - Language: Python 3.8.10
