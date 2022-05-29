@@ -1,4 +1,4 @@
-# Web stack debugging #2
+# Bash - Web stack debugging #2
 
 ## Description of the files inside this folder:
 
