@@ -1,4 +1,4 @@
-# Web stack debugging #4
+# Puppet - Web stack debugging #4
 
 ## Description of the file inside this folder:
 
@@ -8,7 +8,7 @@
 
 - OS: Ubuntu 20.04 LTS
 - Web Server: Nginx on Docker container
-- Language: Puppet.
+- Language: Puppet
 - Style guidelines: [Puppet-Lint](http://puppet-lint.com/)
 
 <p align="left"> <a href="https://puppet.com/" target="_blank" rel="noreferrer"> <img src="https://puppet.com/images/logos/puppet-logo-white.svg" alt="puppet" width="70" height="70"/> </a> </p>
