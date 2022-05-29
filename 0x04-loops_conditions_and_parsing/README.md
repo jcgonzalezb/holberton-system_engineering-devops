@@ -2,17 +2,17 @@
 
 ## Description of the files inside this folder:
 
-0. Create a SSH RSA key pair
-1. Write a Bash script that displays a message 10 times (for loop).
-2. Write a Bash script that displays a message 10 times (while loop).
-3. Write a Bash script that displays a message 10 times (until loop).
-4. Write a Bash script that displays a message 10 times, but for the 9th iteration, displays a message and then Hi on a new line.
-5. Write a Bash script that loops from 1 to 10 and displays a message for the 4th loop iteration, displays other message for the 8th loop iteration and displays another message for the other iterations.
-6. Write a Bash script that displays numbers from 1 to 20 and displays different messages according to the case.
-7. Write a Bash script that displays that prints the time in hours and minutes
-8. Write a Bash script that displays the content of the current directory.
-9. Write a Bash script that gives you information about a file.
-10. Write a Bash script that displays numbers from 1 to 100. Displays FizzBuzz, Fizz and Buzz according to the case.
+0. Creation of a SSH RSA key pair
+1. Bash script that displays a message 10 times (for loop).
+2. Bash script that displays a message 10 times (while loop).
+3. Bash script that displays a message 10 times (until loop).
+4. Bash script that displays a message 10 times, but for the 9th iteration, displays a message and then Hi on a new line.
+5. Bash script that loops from 1 to 10 and displays a message for the 4th loop iteration, displays other message for the 8th loop iteration and displays another message for the other iterations.
+6. Bash script that displays numbers from 1 to 20 and displays different messages according to the case.
+7. Bash script that displays that prints the time in hours and minutes.
+8. Bash script that displays the content of the current directory.
+9. Bash script that gives you information about a file.
+10. Bash script that displays numbers from 1 to 100. Displays FizzBuzz, Fizz and Buzz according to the case.
 
 ## Languages and Tools:
 
