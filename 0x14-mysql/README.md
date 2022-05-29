@@ -1,4 +1,4 @@
-# MySQL
+# Bash - MySQL
 
 ## Description of the files inside this folder:
 
