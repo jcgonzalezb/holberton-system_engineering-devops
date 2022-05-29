@@ -1,4 +1,4 @@
-# Application server for Airbnb
+# Nginx - Application server for Airbnb
 
 ## Description of the files inside this folder:
 
