@@ -11,7 +11,48 @@ Each folder in this repository illustrates an essential concept of programming, 
 0x04. Loops, conditions and parsing
 0x05. Processes and signals
 
-System engineering & DevOps - Scripting
+## System engineering & DevOps - Scripting
+
+0x06. Regular expression
+0x15. API
+0x16. API advanced
+
+## System engineering & DevOps - Networking
+
+0x07. Networking basics #0
+0x08. Networking basics #1
+
+## System engineering & DevOps - Web stack
+
+0x09. Web infrastructure design
+0x0C. Web server
+0x0F. Load balancer
+0x10. HTTPS SSL
+0x11. What happens when you type google.com in your browser and press Enter
+0x14. MySQL
+0x18. Webstack monitoring
+0x1A. Application server
+
+## System engineering & DevOps - Security
+
+0x0B. SSH
+0x13. Firewall
+
+## System engineering & DevOps - On call
+
+0x19. Postmortem
+
+## System engineering & DevOps - CI/CD
+
+0x0A. Configuration management 
+
+## System engineering & DevOps - Web stack debugging
+
+0x0D. Web stack debugging #0 
+0x0E. Web stack debugging #1
+0x12. Web stack debugging #2
+0x17. Web stack debugging #3
+0x1B. Web stack debugging #4
 
 
 ## Languages and Tools:
@@ -21,17 +62,6 @@ System engineering & DevOps - Scripting
 - Style guidelines: [PEP 8](https://www.python.org/dev/peps/pep-0008/)
 
 <p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
-
-- Language: Javascript, Node v14.
-- Style guidelines: [Javascript Standard](https://standardjs.com/rules.html) || [Javascript Semistandard](https://github.com/Flet/semistandard)
-
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
-
-- Language: MySQL scripts
-- Version: MySQL 8.0.27
-- Style guidelines: [SQLStyle](https://www.sqlstyle.guide/)
-
-<p align="left"> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="mysql" width="80" height="40"/> </a> </p>
 
 
 ## Author
